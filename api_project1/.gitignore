@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- uv (Modern Python Manager) ---
+# La carpeta del entorno virtual creada por uv
+.venv/
+# uv.lock NO debe ignorarse si quieres instalaciones deterministas
+# Pero si prefieres no subirlo, descomenta la siguiente línea:
+# uv.lock
+
+# --- Entornos Virtuales tradicionales ---
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Variables de Entorno (SEGURIDAD) ---
+# Muy importante para evitar subir tus API Keys de Anthropic u otras
+.env
+.env.local
+.env.shared
+.env.test
+.env.development
+.env.production
+.flaskenv
+
+# --- Testing / Cobertura ---
+.cache
+.pytest_cache/
+.nosepython
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- IDEs (VS Code, PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
